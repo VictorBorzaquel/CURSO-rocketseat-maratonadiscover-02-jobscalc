@@ -1,0 +1,27 @@
+{
+  "name": "maratonadiscover-02-jobscalc",
+  "version": "1.0.0",
+  "description": "Freelance Calculator",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorBorzaquel/maratonadiscover-02-jobscalc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VictorBorzaquel/maratonadiscover-02-jobscalc/issues"
+  },
+  "homepage": "https://github.com/VictorBorzaquel/maratonadiscover-02-jobscalc#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
