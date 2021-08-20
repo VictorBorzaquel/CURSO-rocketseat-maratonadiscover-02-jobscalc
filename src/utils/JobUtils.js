@@ -6,7 +6,7 @@ module.exports = {
     const daysRemaining = Number(
       (job["total-hours"] / job["daily-hours"]).toFixed()
     );
-    const dateCreated = new Date(job["created_at"]);
+    const dateCreated = new Date(job.created_at);
 
     const dayCreated = dateCreated.getDate();
     const daysToDoJob = dayCreated + daysRemaining;
